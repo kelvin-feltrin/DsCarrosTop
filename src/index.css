@@ -5,6 +5,7 @@
     --ct-color-bg-secondary: #FFF;
 
     --ct-color-font-primary: #FFF;
+    --ct-color-font-secondary: #5E5E5E;
 }
 
 * {
@@ -23,8 +24,16 @@ html, body {
     background-color: var(--ct-color-bg-secondary);
 }
 
+.ct-page-container {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .ct-container {
     width: 100%;
-    max-width: 960px;
+    max-width: 746px;
     margin: 0 auto;
 }
