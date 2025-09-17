@@ -1,6 +1,6 @@
 # DsCarrosTop
 
-* Leia em [Português]()
+* Leia em [Português](https://github.com/kelvin-feltrin/DsCarrosTop/blob/main/README-pt.md)
 
 ## About the project
 The "DsCarrosTop" is a project about listing cars and show comments about them. It's a React project to practice concepts such as creating components, following a template on Figma, styling with CSS and basic HTML structure.
