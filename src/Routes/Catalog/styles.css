@@ -1,6 +1,5 @@
 .ct-catalog-main {
     flex: 1;
-    padding: 0 20px;
 }
 
 .ct-container {
@@ -27,8 +26,25 @@
     gap: 20px;
 }
 
-@media (min-width: 576px) {
+.ct-section-card-comments {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--ct-color-bg-tertiary);
+}
+
+.ct-section-card-comments h2 {
+    margin: 25px 0;
+    font-size: 20px;
+    text-align: center;
+    color: var(--ct-color-font-secondary);
+}
+
+@media (min-width: 1200px) {
     .ct-section-card-cars h2 {
+        font-size: 32px;
+    }
+
+    .ct-section-card-comments h2 {
         font-size: 32px;
     }
 }

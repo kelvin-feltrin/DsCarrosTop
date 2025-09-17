@@ -3,6 +3,7 @@ import './styles.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import CardCar from '../../components/CardCar';
+import CardComments from '../../components/CardComments';
 
 export default function Catalog() {
     return (
@@ -16,6 +17,15 @@ export default function Catalog() {
                         <CardCar />
                         <CardCar />
                     </div>
+                </section>
+
+                <section className='ct-section-card-comments'>
+                    <h2>O que estão dizendo</h2>
+                    <CardComments />
+                    <CardComments />
+                    <CardComments />
+                    <CardComments />
+                    <CardComments />
                 </section>
             </main>
 
